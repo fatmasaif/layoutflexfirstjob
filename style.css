@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+     
+}
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    box-shadow: 1px 1px 7px 0px grey;
+
+}
+
+.logo{
+    width: 50%;
+    padding-left: 15px;
+   
+    
+
+}
+.menu{
+    width: 50%;
+    /* background-color: rgb(226, 168, 43); */
+}
+.menu-item{
+    padding: 5px 15px;
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+}
+.home{
+    font-size: 20px;
+    color:green
+}
+.menu-item:hover{
+    font-size: 20px;
+    color:green
+}
+
+
+
+
+/* Start content */
+.content{
+    display: flex;
+    height: calc(100vh - 97px); /* 90px = 50px(height header) + 40px(height footer) + 7px margin top*/
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+main{
+    /* background-color: rgb(40, 101, 119); */
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+
+}
+main .image{
+    align-self: flex-start; 
+   
+   
+}
+
+
+.info{
+    padding-left: 15px;
+    /* background-color: aquamarine; */
+    align-self: flex-start;  
+}
+.info h2,p{
+    margin-bottom: 15px;
+}
+.info p{
+    font-size: 20px;
+}
+.info ul{
+    padding-left: 15px;
+}
+.info ul li{
+    padding: 5px;
+}
+aside{
+    /* background-color: rgb(155, 155, 160); */
+    width: 40%;
+    height: 50%;
+  
+}
+aside .courses{
+    /* background-color: aqua; */
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+aside .link{
+    padding-left: 10px;
+
+}
+/*** End content */
+
+footer{
+    background-color: black;
+    height: 40px;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
